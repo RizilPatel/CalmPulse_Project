@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+    <id>io.naox.InnerBreeze</id>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>MIT</project_license>
+    <content_rating type="oars-1.1" />
+    <developer_name>NaoX</developer_name>
+    <categories>
+        <category>Utility</category>
+    </categories>
+    <keywords>
+        <keyword>Meditation</keyword>
+        <keyword>Yoga</keyword>
+        <keyword>Breathing</keyword>
+        <keyword>Wellness</keyword>
+        <keyword>Health</keyword>
+        <keyword>Mindfulness</keyword>
+    </keywords>
+
+    <name>Inner Breeze</name>
+    <summary>A meditation app to guide and track your Wim Hof Breathing practice</summary> 
+    <description>
+        <p>Find serenity in every breath with Inner Breeze. This app guides you through the Wim Hof Breathing Method with ease.</p>
+        <p>Experience mindful breathing with personalized settings and track your journey towards tranquility and rejuvenation.</p>
+    </description>
+
+    <launchable type="desktop-id">io.naox.InnerBreeze.desktop</launchable>
+
+    <screenshots>
+        <screenshot type="default">
+            <caption>Tutorial Screen 1</caption>
+            <image>https://raw.githubusercontent.com/naoxio/inbreeze/main/metadata/en-US/images/desktopScreenshots/screenshot-1.jpg</image>
+        </screenshot>
+        <screenshot>
+            <caption>Tutorial Screen 2</caption>
+            <image>https://raw.githubusercontent.com/naoxio/inbreeze/main/metadata/en-US/images/desktopScreenshots/screenshot-2.jpg</image>
+        </screenshot>
+        <screenshot>
+            <caption>Tutorial Screen 3</caption>
+            <image>https://raw.githubusercontent.com/naoxio/inbreeze/main/metadata/en-US/images/desktopScreenshots/screenshot-3.png</image>
+        </screenshot>
+        <screenshot>
+            <caption>Title Screen</caption>
+            <image>https://raw.githubusercontent.com/naoxio/inbreeze/main/metadata/en-US/images/desktopScreenshots/screenshot-4.jpg</image>
+        </screenshot>
+        <screenshot>
+            <caption>Exercise Results View</caption>
+            <image>https://raw.githubusercontent.com/naoxio/inbreeze/main/metadata/en-US/images/desktopScreenshots/screenshot-5.jpg</image>
+        </screenshot>
+        <screenshot>
+            <caption>Progress View</caption>
+            <image>https://raw.githubusercontent.com/naoxio/inbreeze/main/metadata/en-US/images/desktopScreenshots/screenshot-6.jpg</image>
+        </screenshot>
+        
+    </screenshots>
+
+    <url type="homepage">https://inbreeze.xyz</url>
+    <url type="bugtracker">https://github.com/naoxio/inbreeze/issues</url>
+    <url type="donation">https://coindrop.to/naox</url>
+
+    <icon type="remote" height="72" width="72">https://raw.githubusercontent.com/naoxio/inbreeze/main/android/app/src/main/res/mipmap-hdpi/ic_launcher.png</icon>
+    <icon type="remote" height="144" width="144">https://raw.githubusercontent.com/naoxio/inbreeze/main/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png</icon>
+    <update_contact>contact@naox.io</update_contact>
+<releases>
+        <release version="1.4.0" date="2025-03-14">
+            <description>
+                <ul>
+                    <li>Add precise breathe control</li>
+                    <li>Add recovery pause preference</li>
+                    <li>Turn off sound on 0 volume</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.3.9" date="2025-02-16">
+            <description>
+                <ul>
+                    <li>Add languages</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.3.8" date="2024-12-13">
+            <description>
+                <ul>
+                    <li>Rm dependencies info</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.3.7" date="2024-12-12">
+            <description>
+                <ul>
+                    <li>Fix android export</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.3.6" date="2024-09-23">
+            <description>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.3.5" date="2024-09-23">
+            <description>
+                <ul>
+                    <li>Bug fixes</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.3.4" date="2024-09-22">
+            <description>
+                <ul>
+                    <li>Fix flathub build</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.3.3" date="2024-07-22">
+            <description>
+                <ul>
+                    <li>Improve tempo slider</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.3.2" date="2024-07-22">
+            <description>
+                <ul>
+                    <li>Added french thanks to @arkryonia</li>
+                    <li>Added russian thanks to @yurtpage</li>
+                    <li>Added mandarin thanks to ichiban</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.3.1" date="2024-04-26">
+            <description>
+                <ul>
+                    <li>Improve bar chart</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.3.0" date="2024-04-23">
+            <description>
+                <ul>
+                    <li>Improve layout of exercises</li>
+                    <li>Update social links</li>
+                    <li>Add new donation link</li>
+                    <li>Add indonesian</li>
+                    <li>Add progress graph</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.2.8" date="2024-01-26">
+            <description>
+                <ul>
+                    <li>Slight improvements in progress view</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.2.7" date="2024-01-15">
+            <description>
+                <ul>
+                    <li>Update spanish translations thanks to @anhdres</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.2.6" date="2024-01-05">
+            <description>
+                <ul>
+                    <li>Fix no breath in after step 3</li>
+                    <li>fix stop session unwanted screen switch</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.2.5" date="2024-01-03">
+            <description>
+                <ul>
+                    <li>Optimize metadata for desktop release</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.2.4" date="2024-01-03">
+            <description>
+                <ul>
+                    <li>Added italian translations contributed by @albanobattistella</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.2.3" date="2024-01-02">
+            <description>
+                <ul>
+                    <li>Added snap build</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.2.2" date="2023-12-31">
+            <description>
+                <ul>
+                    <li>Added german and spanish translations</li>
+                    <li>Added language switcher</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.2.1" date="2023-12-30">
+            <description>
+                <ul>
+                    <li>Fix breathing bug</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.2.0" date="2023-12-30">
+            <description>
+                <ul>
+                    <li>Added privacy police</li>
+                    <li>Fixed screen width on large displays</li>
+                    <li>Update to latest package versions and flutter version</li>
+                    <li>Improve breathing configuration</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.4" date="2023-12-14">
+            <description>
+                <ul>
+                    <li>Fix breathing configuration</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.3" date="2023-12-14">
+            <description>
+                <ul>
+                    <li>Improve audio player</li>
+                    <li>Added gong at last breath</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.2" date="2023-12-02">
+            <description>
+                <ul>
+                    <li>Fix import older exports</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.1" date="2023-12-02">
+            <description>
+                <ul>
+                    <li>Improved progress view</li>
+                    <li>Fixed importing data from a file</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.1.0" date="2023-12-02">
+            <description>
+                <ul>
+                    <li>Added ability to edit progress results</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.12" date="2023-12-01">
+            <description>
+                <ul>
+                    <li>Added version number in the settings page</li>
+                    <li>Check for updates in the settings page</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.11" date="2023-11-26">
+            <description>
+                <ul>
+                    <li>Import and export data</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.10" date="2023-11-18">
+            <description>
+                <ul>
+                    <li>Added skip button</li>
+                    <li>Fixed wakelock only for mobile and web</li>
+                    <li>Fixed desktop bug with breathing circle</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.9" date="2023-11-14">
+            <description>
+                <ul>
+                    <li>Fix audio issue on desktop</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.8" date="2023-11-13">
+            <description>
+                <ul>
+                    <li>Added themeable icon for android</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.7" date="2023-11-13">
+            <description>
+                <ul>
+                    <li>Update Flatpak metadata</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.6" date="2023-11-13">
+            <description>
+                <ul>
+                    <li>Fixed background music play issue to allow simultaneous playback with other audio sources.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.5" date="2023-11-12">
+            <description>
+                <ul>
+                    <li>Fixed issue with saving data not persisting properly.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.4" date="2023-11-07">
+            <description>
+                <ul>
+                    <li>Added wakelock feature to prevent the screen from turning off automatically.</li>
+                    <li>Updated metadata for enhanced app description and indexing.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.3" date="2023-11-07">
+            <description>
+                <ul>
+                    <li>Updated app icons for a more modern and cohesive look.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.2" date="2023-11-07">
+            <description>
+                <ul>
+                    <li>Fixed breathing timing issue at the end of a round.</li>
+                    <li>Introduced a new logo and images for branding.</li>
+                    <li>Improved configuration options for the breathing circle.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.1" date="2023-10-01">
+            <description>
+                <ul>
+                    <li>Fixed UI padding adjusted for better user experience.</li>
+                    <li>Added new icons for social media links.</li>
+                </ul>
+            </description>
+        </release>
+        <release version="1.0.0" date="2023-09-07">
+            <description>
+                <ul>
+                    <li>First release of the application.</li>
+                </ul>
+            </description>
+        </release>
+</releases>
+</component>
