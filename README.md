@@ -46,14 +46,3 @@ To list available devices:
 ```
 fvm flutter devices
 ```
-
-For more information on Flutter development, check out the [Flutter Documentation](https://flutter.dev/docs).
-
-## Community
-
-Join our vibrant community and share your Inner Breeze journey:
-
-- [Telegram](https://t.me/inner_breeze)
-- [Twitter](https://twitter.com/inner_breeze)
-
-For translations use https://toolate.othing.xyz/projects/inner-breeze/
